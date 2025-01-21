@@ -9,7 +9,6 @@ from sklearn.metrics import accuracy_score, classification_report
 from model.AccuracyOut import plot_confusion_matrix
 from model.OneDCNN import oneDCNN
 
-
 def Iris_label(s):
     # it = {b'river': 0, b'field': 1, b'buliding': 2}
     it = {b'city': 1, b'water': 2,  b'forest': 4, b'farmland': 3}
